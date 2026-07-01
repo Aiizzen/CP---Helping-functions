@@ -1,0 +1,13 @@
+public static long power(int a, int b){
+ int result =1 ;
+
+while(b>0){
+ if(b%2== 1) res*=a;
+  a*=a;
+   b/=2;
+}
+return result;
+}
+
+this formula based on = 2 ^13 =>  power odd means 2*2^12
+further 2.(2^2)^12/2;= 2.(4)^6
